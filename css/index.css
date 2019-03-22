@@ -111,13 +111,29 @@ header nav a:hover {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
 }
 
 .top-row-one {
     padding-bottom: 20px;
 }
 
+.center-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
 .top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    padding-top: 20px;  
+}
+
+.center-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
@@ -151,13 +167,104 @@ header nav a:hover {
     justify-content: center;
 }
 
-.middle-row-one {
+.box1 {
+    width: 120px;
+    height: 100px;
+    background: teal;
+    color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    width: 120px;
+    height: 100px;
+    background: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    width: 120px;
+    height: 100px;
+    background: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    width: 120px;
+    height: 100px;
+    background: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    width: 120px;
+    height: 100px;
+    background: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    width: 120px;
+    height: 100px;
+    background: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+    width: 120px;
+    height: 100px;
+    background: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    width: 120px;
+    height: 100px;
+    background: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    width: 120px;
+    height: 100px;
+    background: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    width: 120px;
+    height: 100px;
+    background: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .titles {
@@ -165,18 +272,6 @@ header nav a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-}
-
-.middle-row-two {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /*justify-content: space-between;*/
-    align-items: strech;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    width: 500px;
 }
 
 .bottom-content {
@@ -198,6 +293,7 @@ header nav a:hover {
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
@@ -212,4 +308,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.end-content {
+    width: 500px;
+    display: inline;
+    margin-top: 15px;
+}
+
+.container .end-content .bottom-stuff {
+    width: 500px;
+    display: inline;
+    margin-bottom: 15px;
+}
+
+.container .button {
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    color: black;
+    background: white;
+    font: inherit;
+}
+
+.container .button:hover {
+    background: black;
+    color: white;
 }
