@@ -75,11 +75,16 @@ header {
     width: 100%;
     background: white;
     padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
 }
 
 header nav {
     width: 60%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
@@ -90,8 +95,14 @@ header nav a {
     color: black;
     text-decoration: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: gray;
 }
 
 .top-content {
@@ -105,9 +116,6 @@ header nav a {
 .top-row-one {
     padding-bottom: 20px;
 }
-
-
-
 
 .top-content .text-container {
     width: 48%;
@@ -145,10 +153,30 @@ header nav a {
 
 .middle-row-one {
     display: flex;
-    flex-wrap: nowrap;
-    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.middle-row-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    align-items: strech;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 500px;
 }
 
 .bottom-content {
