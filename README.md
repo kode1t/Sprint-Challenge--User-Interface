@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Answer: I would describe semantic HTML as markup tools that give your code meaning to whatever device the website is being rendered on. Since various browsers have different rendering technologies, it's important that your website's code is written in a way that any browser will know how to properly display it, irrespective of the browser or device your website is being visited on. So for example, if I am intending to write code that is supposed to go on the top of a webpage, if I just add <div> tags to it instead of a <header> tag, the site may not load my assets correctly on the site.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block; and display: inline; have two differences between them:
+display: inline; is the default way elements are spread horizontally a page. Your content stays on a line and is just going to sit across a page, without respecting height and width.
+display: block; starts on a new line and is basically content that takes up its own shelf of blockspace on a page and pushes other content beneath it, by default. Unlike display: inline;, display: block recognizes width.
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model include content (the actual, consummable information on the website), padding (the space between the content and its border), border (a barrier that encases one's content), and margin (the space between our element and the other elements, or parts of our page, surrounding it).
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+While using flexbox, the axis that the align-items: center property works on is the main-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it enables a team to seamlessly collaborate on repos while keeping track of each version of a repo for projects in an organized and accessible way.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

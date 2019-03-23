@@ -71,18 +71,73 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 100%;
+    background: white;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+}
+
+.top-row-one {
+    padding-bottom: 20px;
+}
+
+.center-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    padding-top: 20px;  
+}
+
+.center-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    padding-top: 20px;  
 }
 
 .middle-content {
@@ -112,10 +167,119 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    width: 120px;
+    height: 100px;
+    background: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    width: 120px;
+    height: 100px;
+    background: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    width: 120px;
+    height: 100px;
+    background: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    width: 120px;
+    height: 100px;
+    background: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    width: 120px;
+    height: 100px;
+    background: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    width: 120px;
+    height: 100px;
+    background: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+    width: 120px;
+    height: 100px;
+    background: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    width: 120px;
+    height: 100px;
+    background: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    width: 120px;
+    height: 100px;
+    background: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    width: 120px;
+    height: 100px;
+    background: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    margin-top: 5px;
+    padding-top: 10px;
 }
 
 .bottom-content .text-container {
@@ -129,6 +293,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
@@ -143,4 +308,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.end-content {
+    width: 500px;
+    display: inline;
+    margin-top: 15px;
+}
+
+.container .end-content .bottom-stuff {
+    width: 500px;
+    display: inline;
+    margin-bottom: 15px;
+}
+
+.container .button {
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    color: black;
+    background: white;
+    font: inherit;
+}
+
+.container .button:hover {
+    background: black;
+    color: white;
 }
